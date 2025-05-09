@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TinyFlixApplicationTest.VideoPlayback">
+        <methods>
+          <include name="TC003_Playback_Rate"/>
+          <include name="TC001_Video_PlayorPause"/>
+          <include name="TC002_Volume_Control"/>
+        </methods>
+      </class> <!-- TinyFlixApplicationTest.VideoPlayback -->
+      <class name="TinyFlixApplicationTest.SearchandFilter">
+        <methods>
+          <include name="TC006_Filter_by_Recent"/>
+        </methods>
+      </class> <!-- TinyFlixApplicationTest.SearchandFilter -->
+      <class name="TinyFlixApplicationTest.ErrorHandling">
+        <methods>
+          <include name="TC013_Network_Error"/>
+        </methods>
+      </class> <!-- TinyFlixApplicationTest.ErrorHandling -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

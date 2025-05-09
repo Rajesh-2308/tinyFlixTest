@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TinyFlixApplicationTest.SearchandFilter"/>
+      <class name="TinyFlixApplicationTest.Comments"/>
+      <class name="TinyFlixApplicationTest.VideoPlayback"/>
+      <class name="TinyFlixApplicationTest.ErrorHandling"/>
+      <class name="TinyFlixApplicationTest.Accessibility"/>
+      <class name="TinyFlixApplicationTest.Bookmarks"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
