@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TinyFlixApplicationTest.VideoPlayback">
+      <class name="UploadDownloadTest.FileUploadAutoIT">
         <methods>
-          <include name="TC003_Playback_Rate"/>
-          <include name="TC001_Video_PlayorPause"/>
-          <include name="TC002_Volume_Control"/>
+          <include name="FileUploadAutoITTest"/>
         </methods>
-      </class> <!-- TinyFlixApplicationTest.VideoPlayback -->
+      </class> <!-- UploadDownloadTest.FileUploadAutoIT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
